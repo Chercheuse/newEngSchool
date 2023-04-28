@@ -22,8 +22,8 @@ header {
     display: flex;
     justify-content: space-between;
     height: 100px;
-    border-bottom: #f3c6bd 1px solid;
-    align-items: end;
+    border-bottom: #7b6661 2px solid;
+    align-items: center;
     position: fixed;
     top: 0px;
     right: 0px;
@@ -153,7 +153,9 @@ ul {
     background-position: 20% 50%;
     background-size: cover;
     height: auto;
+    background-color: #f1f3f9;
 }
+
 
 .addition_details {
     display: flex;
@@ -167,6 +169,7 @@ ul {
     height: 123px;
     gap: 20px;
     padding: 0 15px;
+    line-height: 27px;
 
 }
 
@@ -186,11 +189,13 @@ h2 {
     background-size: cover;
     background-position: 20% 50%;
     height: 550px;
+    background-color: #f1f3f9;
+    margin-top: 0;
 }
 
 .why_this_course {
     display: flex;
-    padding:120px 0 60px;
+    padding: 120px 0 60px;
     align-items: center;
 }
 
@@ -202,4 +207,159 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 25px;
+
+}
+
+.why_title {
+    font-size: 36px;
+    font-family: 'Titillium Web';
+    color: #060807;
+}
+
+.why_subtitle {
+    font-family: "Open Sans";
+    font-size: 16px;
+    color: #060807;
+    line-height: 25px;
+
+}
+
+.why_text-content,
+.why_image_content {
+    padding: 0 15px;
+}
+
+.approaches {
+    display: flex;
+    padding: 60px 0 105px;
+    width: 100%;
+    gap: 32px;
+}
+
+.approaches_header {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3c6bd;
+    width: 35%;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    padding: 10px 8px;
+}
+
+.approaches_elements {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.approaches_element_line1,
+.approaches_element_line2 {
+    display: flex;
+}
+
+.approaches_element {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 15px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.element_number {
+    color: #3040c4;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    background-color: rgb(225, 225, 225);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.approaches_title {
+    font-family: 'Titillium Web';
+    font-size: 33px;
+}
+
+.approaches_subtitle {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.element_title {
+    font-family: 'Titillium Web';
+    font-size: 22px;
+}
+
+.element_description {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 27px;
+}
+
+.appproaches_wrapper {
+    background-color: #f1f3f9;
+}
+
+.course_program_wrapper {
+    background-color: #3040c4;
+    padding: 10px 45px;
+}
+
+.course_program {
+    display: flex;
+    flex-direction: column;
+    padding: 105px 32px 90px;
+    gap:20px;
+    
+}
+
+.course_program_step {
+    display: flex;
+
+}
+
+.step_more {
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+    width: 80%;
+    gap: 20px;
+}
+
+.course_program_title {
+    font-family: 'Titillium Web';
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+}
+
+.step_week {
+    font-family: 'Titillium Web';
+    font-size: 24px;
+    color: #fff;
+    padding: 0 15px;
+    width: 20%;
+}
+
+.step_name {
+    font-family: 'Titillium Web';
+    font-size: 20px;
+    color: #fff;
+}
+
+.step_description {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: #fff;
+    border-bottom: #f1f3f9 2px solid;
+    line-height: 27px;
+    padding-bottom: 20px;
 }
