@@ -363,3 +363,7 @@ h2 {
     line-height: 27px;
     padding-bottom: 20px;
 }
+
+.program_background_under {
+    background-color: #f3c6bd;
+}
