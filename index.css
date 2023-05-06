@@ -724,3 +724,61 @@ h2 {
     font-weight: 300;
     padding-right: 20px;
 }
+
+.why_chooseus_background_above, .why_chooseus_background_under {
+    background-color: #f1f3f9;
+    overflow: hidden;
+}
+
+.why_chooseus_wrapper {
+    background-color: #f3c6bd;
+    margin: -4px 0;
+}
+
+.why_chooseus {
+    display: flex;
+    flex-direction: column;
+    padding:70px 40px;
+    gap: 40px;
+}
+
+.why_chooseus_title {
+    font-family: 'Titillium Web';
+    font-size: 33px;
+    color: #060807;
+    text-align: center;
+}
+
+.why_chooseus_reasons {
+    display: flex;
+    width: 100%; 
+    gap: 10px;
+}
+
+.why_reason {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 0 8px;
+    gap:10px;
+}
+
+.why_icon {
+    width: 50px;
+    height: 50px;
+}
+
+.reason_title {
+    font-family: 'Titillium Web';
+    font-size: 20px;
+    color: #060807;
+}
+
+.reason_desc {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: #060807;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
